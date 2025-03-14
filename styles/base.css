@@ -37,7 +37,7 @@ nav ul {
 }
  
 nav ul a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #ffffff;
 
@@ -75,7 +75,7 @@ main .card h2 {
     border: 2px solid #000080;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #profile {
@@ -103,7 +103,7 @@ main .card h2 {
     margin: 0;
     color: #000000;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 1rem;
 
     
 }
@@ -141,16 +141,15 @@ main .card h2 {
     flex: 1;
     margin-left: 20px;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 1rem;
     color: #000000;
-
 
 }
 
 main .card ul li a {
     text-decoration: none;
     color: #000000;
-    font-size:20px;
+    font-size:1rem;
     line-height: 1.8;
 
 }
@@ -169,7 +168,7 @@ footer {
 footer p {
     color: #d6d6ff;
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
     padding-top: 40px;
 
 }
@@ -179,12 +178,4 @@ main .card #resources {
     display: flex;
     flex-direction: column;
 
-
-
-
-
-
-
-
 }
-
