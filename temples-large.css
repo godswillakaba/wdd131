@@ -1,0 +1,129 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+} 
+
+
+
+@media screen and (min-width: 414px) {
+
+    body {
+        width: 100%;
+    }
+    header {
+        max-width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    header p {
+        font-weight: bolder;
+        margin-left: 40px;
+        font-size: 1.8rem;
+    }
+
+
+    header nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    header nav a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        font-size: 1.2rem;
+        font-weight: bolder;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
+    .hamburger_menu nav {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        background: none;
+        justify-content: space-around;
+        gap: 90px;
+        padding-right: 90px;
+
+    }
+
+
+    h1 {
+    
+        color: black;
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 30px;
+        margin-top: 60px;
+    }
+
+    main  {
+        
+        max-width: none;
+        width: 100%;
+        border: 2px solid rgb(247, 234, 234);
+        
+    }
+
+
+    #temple_photos {
+        display: grid;
+        /*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    #temple_photos figure {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+
+    #temple_photos img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #temple_photos figcaption {
+        color: #4a164a;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 10px;
+    }
+
+
+    footer {
+        max-width: 100%;
+        height: 120px;
+        align-items: center;
+        margin-top: 60px;
+        justify-content: center;
+    }
+
+
+    footer p {
+        font-size: 1.4rem;
+        color: white;
+    }   
+}
