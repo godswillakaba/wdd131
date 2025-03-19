@@ -19,7 +19,7 @@ body {
     }
 
 
-    header p {
+    h1 {
         font-weight: bolder;
         margin-left: 40px;
         font-size: 1.8rem;
@@ -60,7 +60,7 @@ body {
     }
 
 
-    h1 {
+    h2 {
     
         color: black;
         text-align: center;

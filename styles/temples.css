@@ -12,8 +12,7 @@ header {
     max-width: 580px;
 
 }
-
-header p {
+ h1 {
     color: white;
     font-style: normal;
     font-weight: bold;
@@ -86,7 +85,7 @@ nav a:hover {
 }
 
 
-h1 {
+h2 {
     color: black;
     text-align: center;
     font-size: 1.5rem;
