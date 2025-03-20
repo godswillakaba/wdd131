@@ -9,7 +9,7 @@ header {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 720px;
 
 }
  header p {
@@ -94,7 +94,7 @@ h1 {
 
 
 main  {
-    max-width: 800px;
+    max-width: 720px;
     width: 95%;
     margin: 0 auto;
     font-family: "Roboto", sans-serif; 
@@ -131,7 +131,7 @@ main  {
 
 
 footer {
-    max-width: 800px;
+    max-width: 720px;
     width: 100%;
     margin: 0 auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
