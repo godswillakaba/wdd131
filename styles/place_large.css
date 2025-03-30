@@ -37,6 +37,16 @@
 
     }
 
+    .data::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 4px;
+        background-color: var(--accent-color);
+        margin: 10px auto;
+        border-radius: 2px;
+    }
+
     .data h2 {
         background-color: #ffcc00;
         padding: 30px;
