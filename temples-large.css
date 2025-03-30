@@ -19,12 +19,6 @@ body {
     }
 
 
-    header p {
-        font-weight: bolder;
-        margin-left: 40px;
-        font-size: 1.8rem;
-    }
-
 
     header nav {
         display: flex;
@@ -61,20 +55,24 @@ body {
 
 
     h1 {
-    
-        color: black;
+        color: white;
         text-align: center;
         font-size: 2rem;
-        margin-bottom: 30px;
-        margin-top: 60px;
+        padding-left: 3rem;
+        padding-bottom: 2rem;
     }
 
-    main  {
-        
+    main  { 
         max-width: none;
         width: 100%;
-        border: 2px solid rgb(247, 234, 234);
-        
+        border: 2px solid rgb(247, 234, 234);  
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
     }
 
 
