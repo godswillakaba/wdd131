@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Confirmation page for product review submission. Thank you for your feedback!">
+    <meta name="author" content="Godswill Akaba">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <h1>Thank You for Your Review!</h1>
+    </header>
+
+    <main>
+        <p>Your review has been submitted successfully.</p>
+        <p>Total reviews submitted: <span id="reviewCount">0</span></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 2025 GreenEdge Landscape</p>
+        <p id="lastModified">Last Modified: <span id="lastModifiedDate"></span></p>
+    </footer>
+
+    <script>
+        // Increment review counter in localStorage
+        let reviewCount = localStorage.getItem("reviewCount") || 0;
+        reviewCount++;
+        localStorage.setItem("reviewCount", reviewCount);
+
+        // Display the updated review count
+        document.getElementById("reviewCount").textContent = reviewCount;
+
+        // Ge4t the current year
+        const currentYear = new Date().getFullYear();
+        document.getElementById("currentyear").textContent = currentYear;
+
+        // Set the last modified date
+        let lastModifiedDate = new Date(document.lastModified);
+        document.getElementById("lastModifiedDate").textContent = lastModifiedDate.toLocaleString('en-US', {
+
+        });
+
+    </script>
+</body>
+</html>
