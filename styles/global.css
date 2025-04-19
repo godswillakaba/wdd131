@@ -86,7 +86,7 @@ nav a {
     text-decoration: none;
     font-size: 1rem;;
     background-color: gold;
-    padding: 8px;
+    padding: 10px;
     border-radius: 8px;  
     color: black;
 }
@@ -102,13 +102,48 @@ nav a:hover {
     color: brown;
 }
 
+h2 {
+    text-align: center;
+    color: #004d00;
+}
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to 1 column */
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+}
+
+
+.project-card {
+    background-color: #f2f9f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+    margin: auto 0;
+}
+
+.project-card strong {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.project-card figure figcaption {
+    font-size: 1.2rem;
+    
+}
 
 footer p {
     font-size: 1.2rem;
     color: white;
     text-align: center;
     padding: 20px;
-}  
+} 
+
+
 
 
 footer {
