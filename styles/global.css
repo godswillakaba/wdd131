@@ -84,7 +84,7 @@ header p {
 
 nav a {
     text-decoration: none;
-    font-size: 1rem;;
+    font-size: 1rem;
     background-color: gold;
     padding: 10px;
     border-radius: 8px;  
@@ -94,7 +94,7 @@ nav a {
 nav {
     display: flex;
     gap: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav a:hover {
@@ -107,35 +107,29 @@ h2 {
     color: #004d00;
 }
 
-#projects-grid {
-    display: grid;
-    grid-template-columns: 1fr; /* Default to 1 column */
-    gap: 1.5rem;
-    padding: 2rem 1rem;
-}
-
-
-.project-card {
-    background-color: #f2f9f4;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 30px;
-    margin: auto 0;
-}
 
 .project-card strong {
     font-size: 1.4rem;
+    color: #004d00;
     margin-bottom: 1rem;
-}
+    padding-top: 2rem;
+    display: block;
+    text-align: center;
 
+}
 .project-card figure figcaption {
     font-size: 1.2rem;
+    text-align: left;
+    padding-top: 1rem;
     
 }
 
+.project-card figure img {
+    width: 300px;
+    height: auto;
+
+}
+    
 footer p {
     font-size: 1.2rem;
     color: white;
