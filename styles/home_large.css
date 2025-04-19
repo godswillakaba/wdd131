@@ -20,6 +20,7 @@
     }
 
     .info-cards {
+        display: grid;
         grid-template-columns: repeat(3, 1fr); 
         margin-top: 40px;
         margin-bottom: 40px;
