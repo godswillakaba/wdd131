@@ -3,11 +3,46 @@ body {
     margin: auto 0;
 }
 
-p {
-    font-size: 1.2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+@media  screen and (max-width:768px) {
+    p {
+        font-size: 1.2rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    img {
+        width: 300px;
+    }
+    
 }
 
-img {
-    width: 300px;
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: aqua;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: bisque;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    img {
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        margin: auto 0;
+    }
 }
+
+@media screen and (min-width: 1025px)  {
+    body {
+        background-color: rgba(255, 51, 0, 0.225);
+    }
+    
+}
+
+
